@@ -1,0 +1,92 @@
+Programming : 
+Logic : 
+Python : 
+C Programming : 
+Martin Richards : AT & T Bell Laboratories : BCPL - Basic Combined Programming Language
+Ken Thompson : UNIX - B - 
+Dennis Ritchie - UNIX - C  - High level Programming Language
+Structure : 
+#include<stdio.h>
+int main()
+{
+	return 0;
+}
+
+# - preprocessor
+include - keyword
+stdio.h - standard input output header file
+int main() - return type of main function
+{
+//scope of main function
+}
+return  - keyword - main function
+//Learn - 
+//123456 - 1+2+3+4+5+6 = 20
+//654321
+
+//Data - raw facts - smallest entity of any information
+//collection of data - information - structured
+//Data types : int, float, double, charchter
+//operator : Arithmetic : +,-,*,/,%, **
+//while, for, do..while
+
+//Result : 2 lakhs
+//Harshil Restaurant - waiter -
+//planning -  
+
+
+#include<stdio.h>
+int main()
+{
+    int n = 123456;
+    int rem = 0;
+    int sum = 0;
+    while(n>0)
+    {
+        rem = n % 10;
+        sum = sum + rem; //3
+        n = n / 10;
+        
+    }
+    printf("Sum of digits are : %d", sum);
+    return 0;
+}
+
+
+#include<stdio.h>
+int main()
+{
+    int n = 123456;
+    int rem = 0;
+    int rev = 0;
+    while(n>0)
+    {
+        rem = n % 10;
+        rev = rev*10 + rem; //3
+        n = n / 10;
+        
+    }
+    printf("Sum of digits are : %d", rev);
+    return 0;
+}
+
+//Python : Data Analytics - 
+//Data Science - 
+//Machine Learning - 
+//Numpy, Pandas, Matplotlib, Scikit-learn
+//web development : django + flask - html, css, js
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
